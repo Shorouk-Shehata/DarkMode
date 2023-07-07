@@ -1,0 +1,33 @@
+html
+{    --btnColor: blue;
+  --bodyBg:rgb(255, 255, 255);
+  --navBg:rgb(153, 77, 0);
+  --contColor:black;
+  --btnBg:src="../darkmode/firest-project/images/66.jpg";
+  
+}
+html[class="theme-dark"]
+{
+  --navBg:rgb(153, 102, 51);
+  --bodyBg:rgb(102, 51, 0);                          
+  --contColor:white;
+  --btnBg:rgb(153, 92, 0);
+  --btnColor:white;
+}
+
+body
+{
+  background-color: var(--bodyBg);
+}
+
+
+.style 
+{
+  background-color:var(--btnBg);
+  padding: 0.8rem 0.8rem;
+  margin-top:5px; 
+  color: var(--btnColor);
+  font-weight: bold;
+  font-size:15px;
+  border-radius: 5px;
+}
